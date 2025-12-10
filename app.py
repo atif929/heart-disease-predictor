@@ -66,7 +66,7 @@ def load_comparison():
 # Title and description
 st.title("❤️ Heart Disease Prediction System")
 st.markdown("""
-<div style='text-align: center; padding: 1rem; background-color: #f0f2f6; border-radius: 0.5rem; margin-bottom: 2rem;'>
+<div style='text-align: center; padding: 1rem; background-color: black; border-radius: 0.5rem; margin-bottom: 2rem;'>
     <h3>AI-Powered Cardiovascular Risk Assessment</h3>
     <p>Enter patient data to predict the risk of heart disease using machine learning</p>
 </div>
@@ -473,4 +473,5 @@ st.markdown("""
     <p>❤️ Heart Disease Prediction System | Data Science Semester Project Fall 2025</p>
     <p>Developed with Streamlit, Scikit-learn, and Plotly</p>
 </div>
+
 """, unsafe_allow_html=True)
